@@ -18,7 +18,7 @@ body {
   font-family: $principal-font;
   color: $font-color;
 
-  @include set-font-attributes(14px, 1, normal);
+  @include set-font-attributes(16px, 1, normal);
 
   @media (min-width: breakpoints.$lg) {
     @include set-font-attributes(16px, 1, normal);
