@@ -1,75 +1,42 @@
-# Nuxt Minimal Starter
+# Bershka Categories
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+> I've connected the repository with Netlify, so I leave here the URL of the compiled web  
+> [Capitole Bershka](https://capitole-bershka.netlify.app/)
 
-## Setup
+For this project I thought of a simple but straightforward proposal, inspired by the design of the Bershka website.
 
+On the website you can see a sample of the category object that you have created for the test, so that it can be consulted more easily.
+
+For the realization of the project I created a quick project using **Nuxt, Vue, Typescript, SCSS** and **Jest**.
+
+And for the category JSON query, I created an API service with **MagicLoops** to make a more realistic case.
+
+I have uploaded the .env file so you can access the URL. I also put it here in case you want to consult it: [MagicLoops Capitole Bershka](https://magicloops.dev/api/loop/59013a63-6c9e-4319-897a-97bf45bd0d68/run?dummy=test).
+
+And I've added a few tests that cover the basic functionality of the category finder function, using **Jest**.
+
+# Instructions
+
+ **Set Up**
 Make sure to install dependencies:
 
-```bash
-# npm
-npm install
+    npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
+**Development Server**
 Start the development server on `http://localhost:3000`:
 
-```bash
-# npm
-npm run dev
+    npm run dev
 
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
+**Production**
 Build the application for production:
 
-```bash
-# npm
-npm run build
+    npm run build
 
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
 
 Locally preview production build:
 
-```bash
-# npmnu
-npm run preview
+    npm run preview
+**Test**
+Run all the project test
 
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+    npm run test
